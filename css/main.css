@@ -1,5 +1,11 @@
 /* CSS propias del grupo naranja */
 
+body {
+    margin-left: 1rem;
+}
+h1.titulo {
+    margin-top: 2rem;
+}
 .Adela {
     color: #E23D75;
 }
