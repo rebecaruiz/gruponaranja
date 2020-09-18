@@ -1,10 +1,12 @@
 /* CSS propias del grupo naranja */
 
 body {
+    width: 85%;
     margin-left: 1rem;
 }
 h1.titulo {
     margin-top: 2rem;
+    color: orange;
 }
 .Adela {
     color: #E23D75;
