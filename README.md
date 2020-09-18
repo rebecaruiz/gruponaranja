@@ -11,14 +11,16 @@ Please don't modify anything in Semantic-UI folder. You can modify styles on <b>
 When creating your styles at <b>main.css</b>, please use <b>exnumber</b> as prefix. For instance, in html:
 
 
-```<p class="ex76-myclass">
+```
+<p class="ex76-myclass">
 bla bla <span id="ex76-myid">bla</span>
 </p>
 ```
 
 Then in CSS:
 
-```.ex76-myclass {
+```
+.ex76-myclass {
     color:red;
 }
 #ex76-myid {
