@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 109 Grupo naranja</title>
+</head>
+<body>
+    <h2>Ejercicio 109</h2>
+    <p>Escriba un programa de JavaScript para concatenar dos cadenas excepto su primer caracter</p>
+    <button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var frutas = "Melon, Sandia, Melocoton ";
+  var sabores = "Dulce, Salado, Amargo";
+  var res = frutas.substring(1).concat(sabores);
+  document.getElementById("demo").innerHTML = res;
+}
+</script>
+</body>
+</html>
