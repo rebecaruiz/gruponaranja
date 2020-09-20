@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Ejercicio 79</h2>
+
+<p>Escriba un programa JavaScript para encontrar el numero mas grande de los numeros enteros positivos dados, los dos numeros estan en el rango 40..60 inclusive</p>
+<p>El numero mas grande es. <span id="demo"></span>.</p>
+<script>
+var points = [40, 41 ,42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60];
+document.getElementById("demo").innerHTML = myArrayMax(points);
+
+function myArrayMax(arr) {
+  return Math.max.apply(null, arr);
+}
+</script>
+
+</body>
+</html>

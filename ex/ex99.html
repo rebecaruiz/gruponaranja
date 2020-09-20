@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Ejercicio 99</h2>
+
+<p>Escriba un progama JavaScript para convertir las letras de una cadena dada en orden alfagetico.</p>
+
+<button onclick="myFunction()">Prueba</button>
+
+<p id="demo"></p>
+
+<script>
+var letras = ["B", "O", "A", "M"];
+document.getElementById("demo").innerHTML = letras;
+
+function myFunction() {
+  letras.sort();
+  document.getElementById("demo").innerHTML = letras;
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Ejercicio 84</h2>
+
+<p>Escriba un programa JavaScript para calcular la suma de los dos enteros dados. Si la suma esta en el rango 50..80, devuelve 65; de lo contrario devuelve 80.</p>
+
+<button onclick="myFunction()">Prueba</button>
+<p id="demo" ></p>
+
+<script>
+
+function myFunction(){
+var x = 30;
+var y = 10;
+var z = x + y;
+var results;
+if (z < 50 ) {
+    results = "80";
+  }  else if (z > 80 ) {results = "80"} else { results = "65";}
+  document.getElementById("demo").innerHTML = results;
+}
+</script>
+
+</body>
+</html>
