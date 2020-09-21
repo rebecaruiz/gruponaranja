@@ -6,5 +6,6 @@ La longitud de la cadena dada debe ser de 3 o más. */
 
 const pangrama = "El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja."
 
-document.getElementById('ex105solucion').innerText = pangrama.slice(-3).repeat(4);
+const final = pangrama.slice(-3).repeat(4);
 
+document.getElementById('ex105solucion').innerText = final;
