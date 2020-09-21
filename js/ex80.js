@@ -11,4 +11,3 @@ alert (`Has escogido ${respuesta}`);
 const posicion = pangrama.slice(1,4).includes(respuesta);
 
 alert(posicion?'Carácter encontrado':'Carácter no encontrado');
-
